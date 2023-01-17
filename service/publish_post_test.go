@@ -1,10 +1,11 @@
 package service
 
 import (
-	"github.com/Moonlight-Zhao/go-project-example/repository"
-	"github.com/Moonlight-Zhao/go-project-example/util"
 	"os"
 	"testing"
+
+	"github.com/BryanFuCode/tiny-post-bar/repository"
+	"github.com/BryanFuCode/tiny-post-bar/util"
 )
 
 func TestMain(m *testing.M) {

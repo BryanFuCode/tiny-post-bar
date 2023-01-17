@@ -1,9 +1,10 @@
 package repository
 
 import (
-	"github.com/Moonlight-Zhao/go-project-example/util"
 	"sync"
 	"time"
+
+	"github.com/BryanFuCode/tiny-post-bar/util"
 )
 
 type Topic struct {

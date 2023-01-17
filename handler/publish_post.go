@@ -3,7 +3,7 @@ package handler
 import (
 	"strconv"
 
-	"github.com/Moonlight-Zhao/go-project-example/service"
+	"github.com/BryanFuCode/tiny-post-bar/service"
 )
 
 type PageData struct {

@@ -1,11 +1,12 @@
 package main
 
 import (
-	"github.com/Moonlight-Zhao/go-project-example/handler"
-	"github.com/Moonlight-Zhao/go-project-example/repository"
-	"github.com/Moonlight-Zhao/go-project-example/util"
-	"gopkg.in/gin-gonic/gin.v1"
 	"os"
+
+	"github.com/BryanFuCode/tiny-post-bar/handler"
+	"github.com/BryanFuCode/tiny-post-bar/repository"
+	"github.com/BryanFuCode/tiny-post-bar/util"
+	"gopkg.in/gin-gonic/gin.v1"
 )
 
 func main() {

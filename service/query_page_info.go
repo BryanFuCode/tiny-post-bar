@@ -3,8 +3,9 @@ package service
 import (
 	"errors"
 	"fmt"
-	"github.com/Moonlight-Zhao/go-project-example/repository"
 	"sync"
+
+	"github.com/BryanFuCode/tiny-post-bar/repository"
 )
 
 type TopicInfo struct {

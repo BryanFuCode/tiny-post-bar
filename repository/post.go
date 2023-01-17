@@ -1,10 +1,11 @@
 package repository
 
 import (
-	"github.com/Moonlight-Zhao/go-project-example/util"
-	"gorm.io/gorm"
 	"sync"
 	"time"
+
+	"github.com/BryanFuCode/tiny-post-bar/util"
+	"gorm.io/gorm"
 )
 
 type Post struct {

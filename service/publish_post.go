@@ -2,9 +2,10 @@ package service
 
 import (
 	"errors"
-	"github.com/Moonlight-Zhao/go-project-example/repository"
 	"time"
 	"unicode/utf8"
+
+	"github.com/BryanFuCode/tiny-post-bar/repository"
 )
 
 func PublishPost(topicId, userId int64, content string) (int64, error) {

@@ -1,8 +1,9 @@
 package handler
 
 import (
-	"github.com/Moonlight-Zhao/go-project-example/service"
 	"strconv"
+
+	"github.com/BryanFuCode/tiny-post-bar/service"
 )
 
 func PublishPost(uidStr, topicIdStr, content string) *PageData {
